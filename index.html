@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+ 
 </head>
 <body class="bg-[#151515]">
     <!-- navigation bar start  -->
@@ -33,21 +34,30 @@
       <div class="grid grid-cols-1 md:grid-cols-2 flex items-center">
       <!-- headline -->
       <div class="text-white">
-        <h1 class="text-3xl md:text-4xl mb-5 font-semibold">Equip Your Campus Hiring with Automated Skill Tests.</h1>
-        <p class="text-sm md:text-lg opacity-90 mb-5">Use Equip’s Skill Tests for Campus Hiring to Save Time on</p>
-        <!-- check bullets start -->
-       <div class="md:flex">
-        <p class="text-sm md:text-lg opacity-90 mb-5 flex item-center"><box-icon name='check-circle' type='solid' color='#ffffff' class="mr-2" ></box-icon>Travelling</p>
-        <p class="text-sm md:text-lg opacity-90 mb-5 md:ml-5 flex item-center"><box-icon name='check-circle' type='solid' color='#ffffff' class="mr-2" ></box-icon>Creating Content</p>
-       </div>
-        <div class="md:flex">
-          <p class="text-sm md:text-lg opacity-90 mb-5 flex item-center"><box-icon name='check-circle' type='solid' color='#ffffff' class="mr-2" ></box-icon>Scheduling Tests</p>
-        <p class="text-sm md:text-lg opacity-90 mb-5 md:ml-5 flex item-center"><box-icon name='check-circle' type='solid' color='#ffffff' class="mr-2" ></box-icon>Grading Manually</p>
+        <!-- changing text start  -->
+     <div class="text-xl md:text-3xl font-semibold mb-3">
+      <h1 class="pb-2"> Use Equip’s Skill Tests for 
+        <span class="inline md:hidden">Campus to Save Time</span> 
+        <span class="hidden md:inline">Campus</span> 
+      </h1>
+     
+      <div class="wrapper h-8 md:h-8 md:mb-5">
+        <p> 
+          <span class="hidden md:inline">Hiring </span> 
+          <span class="hidden md:inline">to Save Time</span> on</p>
+        <div class="words text-lg md:text-2xl">
+            <span>Travelling</span>
+            <span> Creating Content</span>
+            <span>Scheduling Tests</span>
+            <span>Grading Manually</span>
+            <span>Arranging Supervisors</span>
         </div>
-        <p class="text-sm md:text-lg opacity-90 mb-5 flex item-center"><box-icon name='check-circle' type='solid' color='#ffffff' class="mr-2" ></box-icon>Arranging Supervisors</p>
-        <!-- check bullets end -->
+    </div>
+   </div>
+   <!-- changing text end -->
+         
         <a target="_blank" href="https://equip.co/account/login/?providers=linkedin&next_url=https%3A%2F%2Fequip.co%2Faccount%2Frecruiter-onboarding%2F">
-          <button class="px-8 py-2 text-white rounded-full border">Start 14-day Free Trial</button>
+          <button class="px-8 py-2 text-white text-sm md:text-lg rounded-full border">Start 14-day Free Trial</button>
         </a>
         <p class="mt-5 text-xs opacity-80"><i>* Test 25 candidates for Free</i></p>
       </div>
@@ -127,7 +137,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 border-t">
       <!-- headline + text start -->
       <div class="mt-8 md:mt-16">
-        <h2 class="text-3xl md:text-4xl mb-8 font-semibold">What Can Equip Do For You?</h2>
+        <h2 class="text-xl md:text-4xl mb-8 font-semibold">What Can Equip Do For You?</h2>
         <p class="text-sm md:text-lg opacity-90 mb-5">1. Save your time to avoid going through every application to your job or interviewing every candidate that applies to the job.</p>
         <p class="text-sm md:text-lg opacity-90 mb-5">2. Create an assessment for testing technical and non-technical skills in under a minute using our Question Bank or by importing your own questions.</p>
         <p class="text-sm md:text-lg opacity-90 mb-5">3. See assessment results real-time and shortlist the top candidates for interviews.</p>
@@ -276,5 +286,6 @@ You can also create and customise all of the above with your own content.
    </div>
    <!-- faq end -->
    <script src="./app.js"></script>
+   
 </body>
 </html>
