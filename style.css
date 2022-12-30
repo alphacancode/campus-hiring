@@ -50,8 +50,8 @@ body {
 .words span{
     display: block;
     height: 100%;
-    padding-left: 8px;
-    animation: spin_words 8s infinite;
+    color: #FECC2C;
+    animation: spin_words 20s infinite;
 }
 @keyframes spin_words{
     10%{
